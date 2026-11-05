@@ -1,0 +1,55 @@
+{
+  "captured_at": "2026-11-05T13:53:45.621932+00:00",
+  "application": {
+    "format_version": 1,
+    "id": "app.imalkav.rates_board",
+    "name": "Rates Board",
+    "version": "0.1.0",
+    "api_version": "27.14.0",
+    "author": "iMalkav",
+    "description": "Follow the rates and changes you choose.",
+    "heap_size_kib": 384,
+    "debug": false
+  },
+  "firmware": {
+    "version": "r1051",
+    "target": 21,
+    "branch": "dev",
+    "build_date": "2026-10-30",
+    "commit_hash": "6ee64ba1",
+    "intercom_version": "6ee64ba1",
+    "nwp_version": "1611.2.1.1.255.11.71",
+    "matter_version": "1.0"
+  },
+  "api_version": "27.15.0",
+  "method": "GET /api/screen?display=0 and display=1; base64 decoded and saved as PNG without resizing or retouching",
+  "settings": {
+    "version": 1,
+    "values": {
+      "source_url": "https://raw.githubusercontent.com/iMalkav/busybar-rates-board/20cac49575a716e0dfe63a69c4b5d6e410a40e09/examples/response.json",
+      "token": "",
+      "refresh_s": 30,
+      "decimals": 4
+    }
+  },
+  "inputs": [],
+  "data_note": "Example JSON data served from the public source repository; these are demonstration values, not a live third-party integration.",
+  "fixture": "examples/response.json",
+  "frames": [
+    {
+      "path": "screenshots/front.png",
+      "width": 72,
+      "height": 16,
+      "frame_sha256": "83db76efe3881f14673372dbbabc86c7a87b5cd1d406bcf7b07fb9936b5119ad",
+      "png_sha256": "007e0cdf54f4b6f6bec9eb597b3862a4f836cc6171a559a701b6864b15e1352b"
+    },
+    {
+      "path": "screenshots/back.png",
+      "width": 160,
+      "height": 80,
+      "frame_sha256": "8a0d778e19204fd55d278df8b9b6325a5e63ab6deef980a201d1305c7676994e",
+      "png_sha256": "0162df16927d18cfa0835ae779cbcf70677c28242a7573ac56376a94d7414363"
+    }
+  ],
+  "verification": "Installed, launched, captured both displays, then quit via the device API. This is not comprehensive physical-device testing or verification on the latest release firmware."
+}
