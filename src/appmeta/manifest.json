@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "id": "app.imalkav.rates_board",
+  "name": "Rates Board",
+  "version": "0.1.0",
+  "api_version": "27.14.0",
+  "author": "iMalkav",
+  "description": "Follow the rates and changes you choose.",
+  "heap_size_kib": 384,
+  "debug": false
+}

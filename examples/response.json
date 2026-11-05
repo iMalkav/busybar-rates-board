@@ -1,0 +1,14 @@
+{
+  "rates": [
+    {
+      "pair": "EUR/USD",
+      "value": 1.0825,
+      "change_pct": -0.14
+    },
+    {
+      "pair": "BTC/USD",
+      "value": 65000,
+      "change_pct": 1.2
+    }
+  ]
+}
